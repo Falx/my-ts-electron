@@ -1,0 +1,20 @@
+{
+  "name": "my-ts-electron",
+  "version": "0.1.0",
+  "description": "A test of electron",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tdupont",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "typescript": "^3.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Falx/my-ts-electron.git"
+  }
+}
